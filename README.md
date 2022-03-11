@@ -1,4 +1,6 @@
-# Awesome - Deep Vision Architecture [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Citations&Stars%20Update-Mar%2011,%202022-blue.svg)
+# Awesome - Deep Vision Architecture 
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Citations&Stars%20Update-Mar%2011,%202022-blue.svg)
 
 This repo provides an up-to-date list of progress made in deep learning vision architectures, which includes but not limited to paper (backbone design, loss deisgn, tricks etc), datasets, codebases, frameworks and etc. Please feel free to [open an issue](https://github.com/chenyaofo/awesome-vision-architecture/issues) to add new progress.
 
