@@ -14,6 +14,7 @@ This repo provides an up-to-date list of progress made in deep learning vision a
    - <a href="#2015 Venues">2015 Venues</a>
    - <a href="#2012 Venues">2012 Venues</a>
  - <a href="#Survey">Survey</a>
+ - <a href="#Datasets">Datasets</a>
 
 # <a name="Main Progress">Main Progress</a>
 
@@ -73,3 +74,8 @@ This repo provides an up-to-date list of progress made in deep learning vision a
  - **Transformers in Vision: A Survey** `Cited by 211` `arXiv` `2021` `University of Artificial Intelligence` `Transformers` `Survey` [`PDF`](https://arxiv.org/pdf/2101.01169.pdf)   ***TL;DR**: This survey aims to provide a comprehensive overview of the Transformer models in the computer vision discipline, which includes fundamental concepts of transformers, extensive applications of transformers in vision, the respective advantages and limitations of popular vision transformers and an analysis on open research directions && possible future works.*
 
 
+
+
+# <a name="Datasets">Datasets</a>
+
+ - **ImageNet** [`Download Link`](https://image-net.org/download.php) ***TL;DR**: ImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images. Currently, the most common used versions in academia are **ImageNet-1k** and **ImageNet-21k**. **1)** ImageNet-1k contains 1,281,167 training images, 50,000 validation images of 1000 object classes. **2)** ImageNet-21K, which is bigger and more diverse, consists of 14,197,122 images, each tagged in a single-label fashion by one of 21,841 possible classes. The dataset has no official train-validation split, and the classes are not well-balanced - some classes contain only 1-10 samples, while others contain thousands of samples. Lastly, it is recommended to download this dataset from [Academic Torrents](https://academictorrents.com/browse.php?search=ImageNet) instead of the official website.* `How to cite:` **Imagenet: A Large-scale Hierarchical Image Database** `Cited by 36.7k` `CVPR` `2009` `Princeton University` `ImageNet` [`PDF`](https://image-net.org/static_files/papers/imagenet_cvpr09.pdf)
