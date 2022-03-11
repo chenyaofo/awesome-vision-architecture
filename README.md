@@ -13,6 +13,7 @@ This repo provides an up-to-date list of progress made in deep learning vision a
    - <a href="#2016 Venues">2016 Venues</a>
    - <a href="#2015 Venues">2015 Venues</a>
    - <a href="#2012 Venues">2012 Venues</a>
+ - <a href="#Survey">Survey</a>
 
 # <a name="Main Progress">Main Progress</a>
 
@@ -63,5 +64,12 @@ This repo provides an up-to-date list of progress made in deep learning vision a
 ## <a name="2012 Venues">2012 Venues</a>
 
  - <ins>**ImageNet Classification with Deep Convolutional Neural Networks**</ins> `Cited by 104.8k` `NeurIPS` `2012` `University of Toronto` `AlexNet` [`PDF`](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)  [`Third-party Code (Stars 11.1k)`](https://github.com/pytorch/vision/blob/main/torchvision/models/alexnet.py) ***TL;DR**: This is a pioneering work that exploits a deep convolutional neural network (AlexNet) for large image classification task (ImageNet), which achieves very impressing performance.*
+
+
+
+
+# <a name="Survey">Survey</a>
+
+ - **Transformers in Vision: A Survey** `Cited by 211` `arXiv` `2021` `University of Artificial Intelligence` `Transformers` `Survey` [`PDF`](https://arxiv.org/pdf/2101.01169.pdf)   ***TL;DR**: This survey aims to provide a comprehensive overview of the Transformer models in the computer vision discipline, which includes fundamental concepts of transformers, extensive applications of transformers in vision, the respective advantages and limitations of popular vision transformers and an analysis on open research directions && possible future works.*
 
 
