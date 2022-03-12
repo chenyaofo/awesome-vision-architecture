@@ -1,6 +1,6 @@
 # Awesome - Deep Vision Architecture 
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Citations&Stars%20Update-Mar%2011,%202022-blue.svg)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Citations&Stars%20Update-Mar%2012,%202022-blue.svg)
 
 This repo provides an up-to-date list of progress made in deep learning vision architectures, which includes but not limited to paper (backbone design, loss deisgn, tricks etc), datasets, codebases, frameworks and etc. Please feel free to [open an issue](https://github.com/chenyaofo/awesome-vision-architecture/issues) to add new progress.
 
@@ -50,17 +50,25 @@ This repo provides an up-to-date list of progress made in deep learning vision a
 
  - **MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications** `Cited by 12.3k` `arXiv` `2017` `Google Inc.` `MobileNetV1` [`PDF`](https://arxiv.org/pdf/1704.04861.pdf) [`Official Code (Stars 73.0k)`](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md)  ***TL;DR**: The authors present a class of efficient models called MobileNets for mobile and embedded vision applications, which is a streamlined architecture with depthwise separable convolutions.*
 
+ - **Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning** `Cited by 10.1k` `AAAI` `2017` `Google Inc.` `IneptionV4` [`PDF`](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14806/14311) [`Official Code (Stars 73.0k)`](https://github.com/tensorflow/models/blob/master/research/slim/nets/inception_v4.py)  ***TL;DR**: The authors propose IneptionV4 by combining Inception architectures with residual connections. Moreover, the authors seek to check if Inception can be more efficient with deeper and wider structure.*
+
 
 
 ## <a name="2016 Venues">2016 Venues</a>
 
  - <ins>**Deep Residual Learning for Image Recognition**</ins> `Cited by 109.7k` `CVPR` `2016` `Microsoft Research` `ResNet` [`PDF`](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) [`Official Code (Stars 5.9k)`](https://github.com/KaimingHe/deep-residual-networks) [`Third-party Code (Stars 11.1k)`](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py) ***TL;DR**: This paper presents a residual learning framework (ResNet) to ease the training of networks that are substantially deeper than those used previously, which reformulates the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.*
 
+ - **Rethinking the Inception Architecture for Computer Vision** `Cited by 18.4k` `CVPR` `2016` `Google Inc.` `InceptionV3` [`PDF`](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf) [`Official Code (Stars 73.0k)`](https://github.com/tensorflow/models/blob/master/research/slim/nets/inception_v3.py) [`Third-party Code (Stars 11.1k)`](https://github.com/pytorch/vision/blob/main/torchvision/models/inception.py) ***TL;DR**: With version 1 and version 2 of Inception family, the authors want to explore ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization.*
+
 
 
 ## <a name="2015 Venues">2015 Venues</a>
 
  - <ins>**Very Deep Convolutional Networks for Large-Scale Image Recognition**</ins> `Cited by 74.8k` `ICLR` `2015` `Visual Geometry Group` `University of Oxford` `VGG` [`PDF`](https://arxiv.org/pdf/1409.1556.pdf)  [`Third-party Code (Stars 11.1k)`](https://github.com/pytorch/vision/blob/main/torchvision/models/vgg.py) ***TL;DR**: From the empirical results, the authors found that a network (VGG) with increasing depth and very small ( 3x3) convolution filters would lead to a significant performace improvement based on the prior-art configurations.*
+
+ - <ins>**Going Deeper with Convolutions**</ins> `Cited by 38.0k` `CVPR` `2015` `Google Inc.` `GoogLeNet` `InceptionV1` [`PDF`](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf) [`Official Code (Stars 73.0k)`](https://github.com/tensorflow/models/blob/master/research/slim/nets/inception_v1.py)  ***TL;DR**: The authors propose a deep convolutional neural network architecture codenamed Inception, which adopts multi-branch topology, leading to increasing of the depth and width of the network while keeping the computational budget constant.*
+
+ - **Batch normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift** `Cited by 35.1k` `ICML` `2015` `Google Inc.` `Batch Normalization` `InceptionV2` [`PDF`](http://proceedings.mlr.press/v37/ioffe15.pdf) [`Official Code (Stars 73.0k)`](https://github.com/tensorflow/models/blob/master/research/slim/nets/inception_v2.py)  ***TL;DR**: The authors propose **Batch Normalization**(BN) to alleviate the issue of **internal covariate shift**, which allows us to use much higher learning rates and be less careful about initialization. With the proposed BN, the authors devise a new architecture called InceptionV2.*
 
 
 
