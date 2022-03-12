@@ -1,8 +1,8 @@
 # Awesome - Deep Vision Architecture 
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Citations&Stars%20Update-Mar%2012,%202022-blue.svg)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Last%20Update-Mar%2012,%202022-blue.svg)
 
-This repo provides an up-to-date list of progress made in deep learning vision architectures, which includes but not limited to paper (backbone design, loss deisgn, tricks etc), datasets, codebases, frameworks and etc. Please feel free to [open an issue](https://github.com/chenyaofo/awesome-vision-architecture/issues) to add new progress.
+This repo provides an up-to-date list of progress made in deep learning vision architectures/image classification, which includes but not limited to paper (backbone design, loss deisgn, tricks etc), datasets, codebases, frameworks and etc. Please feel free to [open an issue](https://github.com/chenyaofo/awesome-vision-architecture/issues) to add new progress.
 
 
 **Note**: The papers are grouped by published year. In each group, the papers are sorted by their citations. In addition, the paper with <ins>underline</ins> means a milestone in the field. The third-party code prefers `PyTorch`. The architectures searched by NAS are not included in this repo, please refer to my another repo [awesome-architecture-search](https://github.com/chenyaofo/awesome-architecture-search).
@@ -21,6 +21,8 @@ This repo provides an up-to-date list of progress made in deep learning vision a
 # <a name="Main Progress">Main Progress</a>
 
 ## <a name="2021 Venues">2021 Venues</a>
+
+ - <ins>**An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale**</ins> `Cited by 2.9k` `ICLR` `2021` `Google Research, Brain Team` `Vision Transformer` `ViT` [`PDF`](https://openreview.net/pdf?id=YicbFdNTTy) [`Official Code (Stars 4.6k)`](https://github.com/google-research/vision_transformer)  ***TL;DR**: While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited. In this context, the authors seek to directly apply a pure transformer to sequences of image patches (called Vision Transformer), which performs very well on image classification tasks.*
 
  - **RepVGG: Making VGG-style ConvNets Great Again** `Cited by 108` `CVPR` `2021` `Tsinghua University` `MEGVII Technology` `RepVGG` [`PDF`](https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf) [`Official Code (Stars 2.3k)`](https://github.com/DingXiaoH/RepVGG)  ***TL;DR**: The authors propose a simple but powerful architecture named RepVGG, which has a multi-branch topology in the training and single-branch topology (VGG-like style) in the inference. Such decoupling of the training-time and inference-time architecture is realized by a structural re-parameterization technique.*
 
