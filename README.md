@@ -1,6 +1,6 @@
 # Awesome - Deep Vision Architecture 
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Last%20Update-Mar%2021,%202022-blue.svg)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/Last%20Update-Mar%2022,%202022-blue.svg)
 
 This repo provides an up-to-date list of progress made in deep learning vision architectures/image classification, which includes but not limited to paper (backbone design, loss deisgn, tricks etc), datasets, codebases, frameworks and etc. Please feel free to [open an issue](https://github.com/chenyaofo/awesome-vision-architecture/issues) to add new progress.
 
@@ -9,6 +9,7 @@ This repo provides an up-to-date list of progress made in deep learning vision a
 
  - <a href="#Main Progress">Main Progress</a>
    - <a href="#2021 Venues">2021 Venues</a>
+   - <a href="#2020 Venues">2020 Venues</a>
    - <a href="#2019 Venues">2019 Venues</a>
    - <a href="#2018 Venues">2018 Venues</a>
    - <a href="#2017 Venues">2017 Venues</a>
@@ -28,13 +29,23 @@ This repo provides an up-to-date list of progress made in deep learning vision a
 
  - **Swin Transformer: Hierarchical Vision Transformer using Shifted Windows** `Cited by 898` `ICCV` `2021` `Microsoft Research Asia` `Swin Transformer` [`PDF`](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.pdf) [`Official Code (Stars 7.5k)`](https://github.com/microsoft/Swin-Transformer)  ***TL;DR**: This paper presents a new vision Transformer, called Swin Transformer, whose representation is computed with Shifted windows. The shifted windowing scheme brings greater efficiency by limiting self-attention computation to non-overlapping local windows while also allowing for cross-window connection.*
 
+ - **Res2Net: A New Multi-Scale Backbone Architecture** `Cited by 755` `TPAMI` `2021` `Nankai University` `Res2Net` [`PDF`](https://arxiv.org/pdf/1904.01169.pdf) [`Official Code (Stars 856)`](https://github.com/Res2Net/Res2Net-PretrainedModels)  ***TL;DR**: The authors propose a novel building block for CNNs, namely Res2Net, by constructing hierarchical residual-like connections within one single residual block. The Res2Net represents multi-scale features at a granular level and increases the range of receptive fields for each network layer.*
+
  - **RepVGG: Making VGG-style ConvNets Great Again** `Cited by 116` `CVPR` `2021` `Tsinghua University` `MEGVII Technology` `RepVGG` [`PDF`](https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf) [`Official Code (Stars 2.3k)`](https://github.com/DingXiaoH/RepVGG)  ***TL;DR**: The authors propose a simple but powerful architecture named RepVGG, which has a multi-branch topology in the training and single-branch topology (VGG-like style) in the inference. Such decoupling of the training-time and inference-time architecture is realized by a structural re-parameterization technique.*
+
+
+
+## <a name="2020 Venues">2020 Venues</a>
+
+ - **Self-Training With Noisy Student Improves ImageNet Classification** `Cited by 1.0k` `CVPR` `2020` `Google Research` `NoisyStudent` [`PDF`](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xie_Self-Training_With_Noisy_Student_Improves_ImageNet_Classification_CVPR_2020_paper.pdf) [`Official Code (Stars 652)`](https://github.com/google-research/noisystudent)  ***TL;DR**: The authors present a simple self-training method that achieves 88.4% top-1 accuracy on ImageNet. To achieve this result, they first train an EfficientNet model on labeled ImageNet images and use it as a teacher to generate pseudo labels on 300M unlabeled images. They then train a larger EfficientNet as a student model on the combination of labeled and pseudo labeled images. We iterate this process by putting back the student as the teacher.*
 
 
 
 ## <a name="2019 Venues">2019 Venues</a>
 
  - **Searching for MobileNetV3** `Cited by 1.8k` `ICCV` `2019` `Google AI` `Google Brain` `MobileNetV3` [`PDF`](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) [`Official Code (Stars 73.1k)`](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet) [`Third-party Code (Stars 11.2k)`](https://github.com/pytorch/vision/blob/main/torchvision/models/mobilenetv3.py) ***TL;DR**: This paper presents the next generation of MobileNets (MobileNetV3) based on a combination of complementary architecture search techniques as well as a novel architecture design.*
+
+ - **Selective Kernel Networks** `Cited by 789` `CVPR` `2019` `Nanjing University of Science and Technology` `Momenta` `SKNet` [`PDF`](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Selective_Kernel_Networks_CVPR_2019_paper.pdf) [`Official Code (Stars 497)`](https://github.com/implus/SKNet)  ***TL;DR**: The authors propose a dynamic selection mechanism in CNNs that allows each neuron to adaptively adjust its receptive field size based on multiple scales of input information. A building block called Selective Kernel (SK) unit is designed, in which multiple branches with different kernel sizes are fused using softmax attention that is guided by the information in these branches.*
 
 
 
@@ -58,6 +69,10 @@ This repo provides an up-to-date list of progress made in deep learning vision a
 
  - **Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning** `Cited by 10.2k` `AAAI` `2017` `Google Inc.` `IneptionV4` [`PDF`](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14806/14311) [`Official Code (Stars 73.1k)`](https://github.com/tensorflow/models/blob/master/research/slim/nets/inception_v4.py)  ***TL;DR**: The authors propose IneptionV4 by combining Inception architectures with residual connections. Moreover, the authors seek to check if Inception can be more efficient with deeper and wider structure.*
 
+ - **Xception: Deep Learning with Depthwise Separable Convolutions** `Cited by 8.2k` `CVPR` `2017` `Google Inc.` `Xception` [`PDF`](https://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf)  [`Third-party Code (Stars 8.4k)`](https://github.com/Cadene/pretrained-models.pytorch/blob/master/pretrainedmodels/models/xception.py) ***TL;DR**: The authors present an interpretation of Inception modules in convolutional neural networks as being an intermediate step in-between regular convolution and the depthwise separable convolution operation (a depthwise convolution followed by a pointwise convolution).*
+
+ - **Aggregated Residual Transformations for Deep Neural Networks** `Cited by 6.4k` `CVPR` `2017` `UC San Diego` `Facebook AI Research` `ResNeXt` [`PDF`](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf) [`Official Code (Stars 1.8k)`](https://github.com/facebookresearch/ResNeXt)  ***TL;DR**: This paper presents a simple, highly modularized network architecture for image classification, which is constructed by repeating a building block that aggregates a set of transformations with the same topology.*
+
 
 
 ## <a name="2016 Venues">2016 Venues</a>
@@ -65,6 +80,8 @@ This repo provides an up-to-date list of progress made in deep learning vision a
  - <ins>**Deep Residual Learning for Image Recognition**</ins> `Cited by 110.6k` `CVPR` `2016` `Microsoft Research` `ResNet` [`PDF`](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) [`Official Code (Stars 5.9k)`](https://github.com/KaimingHe/deep-residual-networks) [`Third-party Code (Stars 11.2k)`](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py) ***TL;DR**: This paper presents a residual learning framework (ResNet) to ease the training of networks that are substantially deeper than those used previously, which reformulates the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions.*
 
  - **Rethinking the Inception Architecture for Computer Vision** `Cited by 18.6k` `CVPR` `2016` `Google Inc.` `InceptionV3` [`PDF`](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf) [`Official Code (Stars 73.1k)`](https://github.com/tensorflow/models/blob/master/research/slim/nets/inception_v3.py) [`Third-party Code (Stars 11.2k)`](https://github.com/pytorch/vision/blob/main/torchvision/models/inception.py) ***TL;DR**: With version 1 and version 2 of Inception family, the authors want to explore ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization.*
+
+ - **SqueezeNet: AlexNet-level Accuracy with 50x Fewer Parameters and <0.5MB Model Size** `Cited by 5.4k` `arXiv` `2016` `DeepScale` `SqueezeNet` [`PDF`](https://arxiv.org/pdf/1602.07360.pdf) [`Official Code (Stars 2.1k)`](https://github.com/forresti/SqueezeNet)  ***TL;DR**: This paper presents a small DNN architecture called SqueezeNet, which achieves AlexNet-level accuracy on ImageNet with 50x fewer parameters.*
 
 
 
